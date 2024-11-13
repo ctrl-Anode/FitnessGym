@@ -1,0 +1,26 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin-top: 20px;
+        }
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background-color: #f8f9fa;
+            position: fixed;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+
+
+         <nav class="nav flex-column">
+        <a class="nav-link" href="#" onclick="showSection('login')">Login</a>
+        <a class="nav-link" href="#" onclick="showSection('membership')">Apply for Membership</a>
+        <a class="nav-link" href="#" onclick="showSection('class-booking')">Book a Class</a>
+        <a class="nav-link" href="#" onclick="showSection('member-management')">Member Management</a>
+        <a class="nav-link" href="#" onclick="showSection('payment-processing')">Payment Processing</a>
+    </nav>
